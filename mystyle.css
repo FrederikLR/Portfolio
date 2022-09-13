@@ -1,5 +1,6 @@
 body {
   background-color: lightskyblue;
+    background-image: linear-gradient(lightblue, purple);
     opacity:0.8;
 }
 
