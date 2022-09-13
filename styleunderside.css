@@ -2,7 +2,7 @@
 
 body {
   background: lightgoldenrodyellow;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px black(0, 0, 0, 1.06);
     color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;

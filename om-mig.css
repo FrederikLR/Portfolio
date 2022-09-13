@@ -1,17 +1,7 @@
 body {
-  background-color: lightskyblue;
+  background-color: lightsteelblue;
     opacity:0.8;
 }
-
-#grad1{
-    height: 630px;
-    background-color: red;
-    background-image: linear-gradient(lightblue, purple);
-    
-    
-    
-}
-
 
 h1 {
   color: black;
@@ -21,9 +11,8 @@ h1 {
 border-width: 5px;
 border-color:black white black white ;
     border-radius:50px;
-    width: 700px;
+    width:900px;
     margin:auto;
-    background-color: antiquewhite;
 }
 img{
     display: block;
@@ -44,26 +33,32 @@ text-align: center;
 
 h4{
     font-family:cursive; 
-    text-align: center;
     text-align: left;
-  font-size:20px;
+  font-size: 20px;
 border-left:6px solid black; 
     
     
 }
 p {
   font-family:cursive; 
-    text-align: center;
+    text-align: right
   font-size: 20px;
+border-left:6px solid black;
+    padding: 5px;
+}
+div {
+  width: 800px;
+  border: 4px solid black;
+  padding: 8px;
+  margin: auto;
+    border-radius: 20px;
+    background-color: lavender;
 
 }
-
-
 h5{
-    text-align: center;
     font-family:bold; 
-    border-bottom: 4px solid black;
-  font-size: 40px;   
+    text-align: left;
+  font-size: 20px;   
 }
 
 
