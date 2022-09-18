@@ -11,8 +11,9 @@ h1 {
 border-width: 5px;
 border-color:black white black white ;
     border-radius:50px;
-    width:900px;
+    width:800px;
     margin:auto;
+    background-color: lavender
 }
 img{
     display: block;
