@@ -1,6 +1,5 @@
-
 body {
-  background-image: url(billeder/BaggrundWeb.jpg);
+  background-image: url(billeder/Cookie%20baggrund.jpg);
     box-shadow: 0 0 2px black(0, 0, 0, 1.06);
     color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,9 +43,8 @@ img{
     margin-right: auto;
 }
 p {
-  font-family:cursive; 
-    text-align: right
-  font-size: 20px;
+text-align: right;
+font-size: 20px;
 border-left:6px solid black;
 }
 p2 {
@@ -73,11 +71,12 @@ border-left:6px solid black;
     border-radius: 40px;
 }
 h6{
- color:yellow; 
-    font-size: 20px;
-text-align: center;
-    
+ color:black; 
+font-size: 15px;
+margin: auto;
+margin-bottom: 10px;
 }
+
 div {
   width: 500px;
   border: 6px dotted black;

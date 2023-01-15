@@ -1,67 +1,131 @@
 body {
-  background-color: lightsteelblue;
-    opacity:0.8;
+   width: 100%;
+    height: 100vh;
+    background-image: url(billeder/om%20mig%20baggrund.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: fadeIn 6s;
 }
 
+@keyframes fadeIn{
+from{opacity: 0;}
+to{opacity:1;} 
+}
+
+.bredde{
+display:flex;
+height:90%;
+align-items: center;
+}
+
+.højde{
+flex-basis: 50%;    
+}
 h1 {
-  color: black;
-  text-align: center;
-    text-shadow: 2px 2px 3px red;
- border-style: inset;
-border-width: 5px;
-border-color:black white black white ;
-    border-radius:50px;
-    width:800px;
-    margin:auto;
-    background-color: lavender
-}
-img{
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    
+ color: black;
+font-size: 100px;
 }
 
-o1 {
-  border-bottom: 3px solid black;
-}
+
 
 h3{
-    color:black; 
+color:black; 
 text-align: center;
-
 }
 
 h4{
-    font-family:cursive; 
-    text-align: left;
-  font-size: 20px;
-border-left:6px solid black; 
-    
-    
-}
-p {
-  font-family:cursive; 
-    text-align: right
-  font-size: 20px;
-border-left:6px solid black;
-    padding: 5px;
-}
-div {
-  width: 800px;
-  border: 4px solid black;
-  padding: 8px;
-  margin: auto;
-    border-radius: 20px;
-    background-color: lavender;
-
+font-family:bold; 
+font-size: 20px;
+text-align: center;
+margin:10px 10px;
+border-style: inset;
+background-color: lavender;
+opacity: 60%;
 }
 h5{
-    font-family:bold; 
-    text-align: left;
-  font-size: 20px;   
+font-family:bold; 
+font-size: 15px;
+text-align: center;
+}
+h6{
+font-family:bold; 
+font-size: 12px;
+text-align: center;
+}
+p {
+color: black;
+font-size:20px;
+line-height:20px;
+border-style: solid;
+background-color: aliceblue;
+opacity: 80%;
+    
 }
 
+.bokse{
+display: inline-block;
+border-radius:15px;
+padding: 0px 15px;
+margin:15px;
+box-sizing: border-box;
+background-size: cover;
+transition: transform 0.5s;
+}
+.bokse:hover{
+transform: scale(1.2);
+box-shadow: 20px 20px 20px black;
+}
+
+.boks1{
+width:250px;
+height:270px;
+background-image:url(billeder/Mig.jpg);
+}
+.boks1skjult{
+display:none;
+width:220px;
+height:200px;
+background-color:lightsteelblue;
+opacity:75%;
+border-radius: 15px;
+}
+.boks1:hover .boks1skjult{
+display:block;
+}
+
+.boks2{
+width:250px;
+height:270px;
+background-image: url(billeder/Arbejde.jpeg);
+}
+.boks2skjult{
+display:none;
+width:220px;
+height:200px;
+background-color:lightsteelblue;
+opacity: 75%;
+border-radius:15px;
+}
+.boks2:hover .boks2skjult{
+display:block;
+}
+.boks3{
+width:540px;
+height:200px;
+background-image: url(billeder/Customs.jpg);
+}
+.boks3skjult{
+display:none;
+width:510px;
+height:135px;
+background-color:lightsteelblue;
+border-radius: 15px;
+opacity:90%;
+}
+
+.boks3:hover .boks3skjult{
+display:block;
+}
 
 
 </style>
