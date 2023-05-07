@@ -1,0 +1,100 @@
+body{
+background-color: beige;
+animation:fadeIn 7s;
+}
+@keyframes fadeIn{
+from{opacity: 0;}
+to{opacity:1;} 
+}
+
+.hele{
+height:100%;
+width:100%;
+background-color: beige;
+}
+.nav{
+    background-color: aliceblue;
+    display: flex;
+    margin-left:24%;
+    height:65px;
+    margin-right:20%;
+    border-radius:15px;
+    }
+    .nav a{
+    padding: 15px 15px;
+    text-align: center;
+    color:black;
+    Font-size: 15px;
+    display: block;
+    float: left;
+    }
+    .nav a:hover{
+        background:navy;
+        color: whitesmoke;
+        opacity:70%;
+        border-radius:15px;
+    }
+    .bredde{
+        display:flex;
+        align-items:center;
+        }
+        .højde{
+        flex-basis:50%;
+        }
+
+    h1{
+    font-size:50px;
+    text-align:center;
+    }
+    h2{
+    font-size:30px;
+    text-align:center;    
+    }
+    h3{
+    font-size:19px;
+    font-weight:normal;
+    }
+
+    h4{
+    font-size:17px;
+    margin-left:7px;
+    margin-right:7px;
+    font-weight:normal;
+    }
+
+    h5{
+        font-size:19px;
+        font-weight:normal;
+        margin-left:20px;
+        }
+    p{
+    text-align:center;
+    font-size:18px;
+    }
+    .billeder{
+    float:left;   
+    margin-left:30%;
+    margin-right:20% 
+    }
+    #preloadbillede{
+    margin-top:200px;
+    }
+    #billedermarginleft{
+    margin-left:15%
+    }
+    .Procesovervejelser{
+    width:80%;
+    background-color:blanchedalmond;
+    Border-radius: 15px;
+    margin:auto;    
+    }
+    .forklaring{
+    width:140%
+    }
+
+    .Feedback{
+    width:84%;
+    background-color:burlywood;
+    border-radius:15px;
+    margin:auto;
+    }

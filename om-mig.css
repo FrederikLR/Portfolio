@@ -11,6 +11,32 @@ body {
 from{opacity: 0;}
 to{opacity:1;} 
 }
+.Hele{
+    height:100%;
+    width:100%;
+    }
+    .nav{
+        background: black;
+        display: flex;
+        margin-left:24%;
+        height:65px;
+        border-radius:15px;
+        margin-right:20%;
+        }
+        .nav a{
+        padding: 15px 15px;
+        text-align: center;
+        color:white;
+        Font-size: 15px;
+        display: block;
+        float: left;
+        }
+        .nav a:hover{
+            background:navy;
+            color: whitesmoke;
+            opacity:70%;
+            border-radius:15px;
+        }
 
 .bredde{
 display:flex;
@@ -128,12 +154,3 @@ display:block;
 }
 
 
-</style>
-</head>
-<body>
-
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>

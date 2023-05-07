@@ -1,0 +1,83 @@
+body {
+    background-color:aliceblue;
+    animation:fadeIn 7s;
+    }
+
+@keyframes fadeIn{
+from{opacity: 0;}
+to{opacity:1;} 
+}
+
+.Hele{
+height:100%;
+width:100%;
+}
+.nav{
+    background: black;
+    display: flex;
+    margin-left:24%;
+    height:65px;
+    border-radius:15px;
+    margin-right:20%;
+    }
+    .nav a{
+    padding: 15px 15px;
+    text-align: center;
+    color:white;
+    Font-size: 15px;
+    display: block;
+    float: left;
+    }
+    .nav a:hover{
+        background:navy;
+        color: whitesmoke;
+        opacity:70%;
+        border-radius:15px;
+    }
+    h1{
+    Font-size:40px;
+    text-align:center;
+    }
+    h2{
+    text-align:center;
+    }
+    h3{
+    margin-left:5px;
+    margin-right:5px;
+    font-weight:normal;
+    }
+
+    .HvadErAI{
+    height:360px;
+    flex-basis:50%;
+    align-items:center; 
+    display:flex;
+    }
+    .HvadErAIBoks{
+    flex-basis:50%;
+    height:360px;
+    border-radius:5px;
+    }
+    div#AI1{
+    background-color:aqua;
+    }
+    div#AI2{
+    background-color:aquamarine;
+    }
+    .bredde{
+    display:flex;
+    }
+    .højde{
+    flex-basis:50%;
+    margin-top:50px;
+    }
+    #billede1{
+    border-radius: 15px;
+    }
+    #billede2{
+    border-radius:15px;
+    margin-left:10%;
+    }
+
+
+

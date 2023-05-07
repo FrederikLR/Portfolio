@@ -7,8 +7,8 @@ body {
     line-height: 1.30;
     margin: 0 auto;
     max-width: 800px;
-    
 }
+
 
 h1 {
   color: black;
@@ -26,7 +26,7 @@ h2{
     text-align: center;
 }
 
-o1 {
+o1{
   border-bottom: 3px dotted black;
 }
 
@@ -49,7 +49,7 @@ border-left:6px solid black;
 }
 p2 {
    font-family:cursive; 
-    text-align: right
+    text-align: right;
   font-size: 20px;
 border-left:6px solid black;
     border-color:red   
@@ -84,12 +84,3 @@ div {
   margin: auto;
 
 }
-</style>
-</head>
-<body>
-
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
